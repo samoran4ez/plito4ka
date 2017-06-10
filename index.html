@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Plito4ka</title>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/ico" href="img/favicon.ico">
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideWidth: 800,
+              $Cols: 2,
+              $Align: 194,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1200);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+        });
+    </script>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<nav class="maxmin">
+			<div class="logo">
+				<a href="index.html">Plito4ka</a>
+			</div>
+			<ul class="menu">
+				<li><a href="index_about.html">О нас</a></li>
+				<li><a href="index_serv.html">Услуги</a></li>
+				<li><a href="index_contacts.html">Контакты</a></li>
+			</ul>
+			<ul class="social">
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+
+		<div class="slider">
+			<div id="jssor_1" class="jssor_1">
+				<div data-u="loading" class="loading">
+					<div></div>
+					<div></div>
+				</div>
+				<div data-u="slides" class="slides" >
+					<div data-p="112.50" class="11250">
+						<img data-u="image" src="img/s1.jpg" alt="1slider" />
+					</div>
+					<div data-p="112.50" class="11250">
+						<img data-u="image" src="img/s2.jpg" alt="2slider" />
+					</div>
+					<div data-p="112.50" class="11250">
+						<img data-u="image" src="img/s3.jpg" alt="3slider" />
+					</div>
+					<div data-p="112.50" class="11250">
+						<img data-u="image" src="img/s4.jpg" alt="4slider" />
+					</div>
+					<div data-p="112.50" class="11250">
+						<img data-u="image" src="img/s5.jpg" alt="5slider" />
+					</div>
+					<div data-p="112.50" class="11250">
+						<img data-u="image" src="img/s6.jpg" alt="6slider" />
+					</div>
+					<div data-p="112.50" class="11250">
+						<img data-u="image" src="img/s7.jpg" alt="7slider" />
+					</div>
+				</div>
+			
+				<div data-u="navigator" class="jssorb01" data-autocenter="1">
+					<div data-u="prototype"></div>
+				</div>
+
+				<span data-u="arrowleft" class="jssora13l"  data-autocenter="2"></span>
+				<span data-u="arrowright" class="jssora13r" data-autocenter="2"></span>
+			</div>
+		</div>
+
+		<div class="wrap">
+			<ul class="info maxmin">
+				<li>
+					<h2>
+						Тротуарная плитка – это залог ухоженного, современного дачного участка или придомовой территории.
+					</h2>
+				</li>
+				<li>
+					<p>
+						Сегодня рынок предлагает огромное множество строительных материалов, о которых несколько десятилетий назад даже не слышали. Эти материалы за два десятка лет прочно вошли в жизнь современного украинца, они доказали свою практичность, устойчивость к любым погодным условиям, а стоимость и эстетическая составляющая отвечают всем ожиданиям клиентов.
+					</p>
+				</li>
+				<li class="button">
+					<a href="">Купить сейчас</a>
+				</li>
+				<li class="button">
+					<a href="https://www.dropbox.com/s/mdou5i8tvybjo1z/PLITO4KA_prays_list.xlsx?dl=1">Смотреть прайс</a>
+				</li>
+			</ul>
+		</div>
+
+		<ul class="servlist maxmin">
+			<li>
+				<h1>Наши преимущества</h1>
+			</li>
+			<li>
+				<p>78% обратившихся становятся постоянными клиентами</p>
+			</li>
+			<li>
+				<p>Самые низкие цены и выгодные предложения</p>
+			</li>
+			<li>
+				<p>Постоянный штат квалифи- цированных сотрудников</p>
+			</li>
+			<li>
+				<p>115 организаций клиентов по всей Украине</p>
+			</li>
+			<li>
+				<p>Собственный автопарк, высокоточное современное оборудование</p>
+			</li>
+		</ul>
+
+		<div class="wrap">
+			<ul class="promo maxmin">
+				<li>
+					<p><span>5</span>лет успешной работы</p>
+				</li>
+				<li>
+					<p><span>2000</span>благодарных клиентов<p>
+				</li>
+				<li>
+					<p><span>24</span>часа на выполнение заявки<p>
+				</li>
+				<li>
+					<p><span>2</span>часа на оформление заказа<p>
+				</li>
+			</ul>
+		</div>
+
+<!-- 		<div class="wrap">
+			<ul class="gallery maxmin">
+				<li>
+					<h1>
+						Образцы продукции
+					</h1>
+				</li>
+				<li>
+					<a tabindex="1"><img src="img/g1.jpg" alt=""></a>
+					<p>"Cтарый город"</p>
+					<p>Стоимость 100грн/м<sup><small>2</small></sup></p>
+				</li>
+				<li>
+					<a tabindex="2"><img src="img/g2.jpg" alt=""></a>
+					<p>"Кирпич"</p>
+					<p>Стоимость 170грн/м<sup><small>2</small></sup></p>
+				</li>
+				<li>
+					<a tabindex="3"><img src="img/g3.jpg" alt=""></a>
+					<p>"Шагрень"</p>
+					<p>Стоимость 110грн/м<sup><small>2</small></sup></p>
+				</li>
+				<li>
+					<a tabindex="4"><img src="img/g4.jpg" alt=""></a>
+					<p>"Квадрат"</p>
+					<p>Стоимость 130грн/м<sup><small>2</small></sup></p>
+				</li>
+				<li>
+					<a tabindex="5"><img src="img/g5.jpg" alt=""></a>
+					<p>"Брук"</p>
+					<p>Стоимость 140грн/м<sup><small>2</small></sup></p>
+				</li>
+			</ul>
+		</div> -->
+
+		<div id="slider">
+<!-- 			создать слайдер -->
+			
+
+		</div>
+		<div id="slider_value"></div>
+
+		<div class="about maxmin">
+			<ul class="aboutus">
+				<li>
+					<h2>Немного о нас</h2>
+				</li>
+				<li>
+					<p>Наш завод неоднократно получал разного формата признания качества от наших европейских друзей. Как результат завод имеет ряд сертификатов лицензий как украинского происхождения так иностранного. Всем известно, что уровень использованной технологии влияет на саму тротуарную плитку и ее цену.</p>
+				</li>
+				<li>
+					<p>Мы используем европейские линии производства. Сильные ошеломляющие требования к покрытию в связи из применением особо специальных материалов. Представим Вам: цемент отличного качества, наполнитель щебня, песок. Все это позволяет нам делать тротуарную плитку, которая на рынке выдерживает конкуренцию во всех аспектах.</p>
+				</li>
+				<li>
+					<p>Купив тротуарную плитку, Вы получите в итоге лучшую цену, качество и блестящее обслуживание.</p>
+				</li>
+			</ul>
+			<div class="recent">
+				<h2>О нас в сети</h2>
+				<ul class="post">
+					<li>
+						<p>23 ЯНВ</p>
+					</li>
+					<li>
+						<h4>От 'Dima Overchuk'</h4>
+					</li>
+					<li>
+						<a href="">9 комментариев</a>
+						<p>|</p>
+						<a href="">21</a>
+					</li>
+					<li>Качественная плитка, своевременная доставка, всем доволен.</li>
+					<li>
+						<a href="">Читать дальше</a>
+					</li>
+				</ul>
+				<ul class="post">
+					<li>
+						<p>23 ЯНВ</p>
+					</li>
+					<li>
+						<h4>От 'Himchuk Igor'</h4>
+					</li>
+					<li>
+						<a href="">5 комментариев</a>
+						<p>|</p>
+						<a href="">3</a>
+					</li>
+					<li>Доволен быстрой доставкой и укладкой. Плитка выглядит прекрасно.</li>
+					<li>
+						<a href="">Читать дальше</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="wrap">
+			<div class="call maxmin">
+				<h2>Заказать консультацию специалиста</h2>
+				<p>Заполните форму обратной связи и наш менеджер свяжется с Вами</p>
+				<form action="URL">
+					<p>Заказать консультацию</p>
+					<input type="text" placeholder="Имя (больше трех символов)" pattern="[A-Za-zА-Яа-яЁё]{3,}" size="27">
+					<input type="tel" pattern="380[0-9]{9,11}" placeholder="Телефон (380-XX-XXX-XX-XX)" size="27">
+					<input type="submit" value="Заказать">
+				</form>
+			</div>
+		</div>
+		
+	</section>
+
+	<footer>
+		<p class="maxmin">
+			&copy; 2015 Ivashchenko Pavel
+		</p>
+	</footer>
+
+
+
+<script>
+	$("#slider").slider(function(){
+		$('slider_value').html('&pound;' + ui.value);
+	});
+</script>
+
+</body>
+</html>
